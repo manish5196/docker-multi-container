@@ -15,5 +15,5 @@ after_success:
     # Take those images and push them to docker hub
     - docker push manishdubey001/multi-container-client
     - docker push manishdubey001/multi-container-nginx
-    - docker push smanishdubey001/multi-container-server
+    - docker push manishdubey001/multi-container-server
     - docker push manishdubey001/multi-container-worker
